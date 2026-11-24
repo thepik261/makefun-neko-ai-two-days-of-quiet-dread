@@ -7,7 +7,7 @@ import { mkdirSync, writeFileSync, chmodSync } from "node:fs";
 import { join } from "node:path";
 
 const COMMENT =
-  "LGTM. Clean diff, green tests, and the quiet feeling this code will outlive us all. Merging anyway.";
+  "LGTM. Clean diff, green tests, and the quiet feeling this code will outlive us all. Merging before it notices.";
 
 function main(): void {
   // The comment is a single line, well under the 140-character cap.
